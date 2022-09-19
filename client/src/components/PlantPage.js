@@ -15,6 +15,7 @@ function PlantPage() {
         setPlants(plantsArray);
       });
   }, []);
+  // console.log(plants)
 
   function handleAddPlant(newPlant) {
     const updatedPlantsArray = [...plants, newPlant];
